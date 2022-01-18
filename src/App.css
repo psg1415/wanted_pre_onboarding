@@ -1,0 +1,646 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("https://d1azc1qln24ryf.cloudfront.net/78252/wantedicon/icomoon.eot?8et930");
+  src: url("https://d1azc1qln24ryf.cloudfront.net/78252/wantedicon/icomoon.eot?8et930#iefix")
+      format("embedded-opentype"),
+    url("https://d1azc1qln24ryf.cloudfront.net/78252/wantedicon/icomoon.woff2?8et930")
+      format("woff2"),
+    url("https://d1azc1qln24ryf.cloudfront.net/78252/wantedicon/icomoon.ttf?8et930")
+      format("truetype"),
+    url("https://d1azc1qln24ryf.cloudfront.net/78252/wantedicon/icomoon.woff?8et930")
+      format("woff"),
+    url("https://d1azc1qln24ryf.cloudfront.net/78252/wantedicon/icomoon.svg?8et930#icomoon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #fff;
+}
+ {
+  /*gnb영역S*/
+}
+.xsSignUpButton {
+  display: none;
+  color: #36f;
+  font-size: 14px;
+  line-height: 32px;
+  height: 34px;
+  border: 1px solid #36f;
+  border-radius: 17px;
+  padding: 0 14px;
+}
+
+.NavBar {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+  z-index: 100;
+  padding-right: initial;
+}
+
+.MainBar_MainBar {
+  position: relative;
+  max-width: 1060px;
+}
+
+.MainBar_MainBar_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.MainBar_MainBar_nav_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MainBar_MainBar_nav_top_logo {
+  display: flex;
+}
+
+.MainBar_MainBar_nav_top .MainBar_hamberger {
+  margin-top: -2px;
+  margin-right: 15px;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  text-transform: none;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.MainBar_hamberger img {
+  width: 17px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.icon-logo_new {
+  font-size: 17px;
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.icon-logo_new::before {
+  content: "\e992";
+}
+
+.Menu_className {
+  height: inherit;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+.Menu_className .xsHomeButton {
+  box-shadow: inset 0 -2px #258bf7;
+}
+
+.Menu_className .xsHomeButton a {
+  padding-left: 20px;
+}
+
+.Menu_className li {
+  height: inherit;
+  display: inline-block;
+}
+
+.Menu_className li::after {
+  height: 100%;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Menu_className li a {
+  position: relative;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 15px;
+  display: inline-block;
+}
+aside {
+  display: block;
+}
+
+.Aside_className {
+  height: 100%;
+  padding: 10px 0;
+}
+
+.Aside_className ul {
+  height: 100%;
+  margin: 0;
+}
+
+.Aside_className ul li {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  line-height: 1;
+}
+.Aside_className ul li > * {
+  padding: 0 5px;
+}
+
+.Aside_className ul li .searchButton {
+  position: relative;
+  margin-top: 5px;
+}
+
+.Aside_className ul li .searchButton g {
+  fill: none;
+  fill-rule: evenodd;
+  text-align: center;
+}
+.Aside_className ul li .searchButton g svg {
+  width: 18;
+  height: 18;
+}
+
+.Aside_className ul li .signUpButton {
+  margin-right: 6px;
+}
+
+.Aside_className ul .leftDivision {
+  display: inline-flex;
+}
+
+.Aside_className ul .leftDivision::before {
+  display: block;
+  content: "";
+  width: 1px;
+  height: 10px;
+  background-color: #e1e2e3;
+  margin: auto 10px;
+}
+
+.Aside_className ul li .dashboardButton {
+  font-size: 13px;
+  color: #666;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #e1e2e3;
+  border-radius: 15px;
+  padding: 0 10px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.Aside_className ul li a {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.Padding {
+  height: 50px;
+}
+ {
+  /*gnb영역E*/
+}
+
+ {
+  /*캐러셀S*/
+}
+.main {
+  background-color: #fff;
+  display: block;
+}
+
+.main img {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+  object-fit: cover;
+  position: relative;
+}
+.Image_Image {
+  margin: 20px 10px;
+}
+
+.information {
+  text-align: center;
+}
+
+.information > h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  color: #333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.information h3 {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.15;
+  color: #666;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.divider {
+  display: none;
+  height: 1px;
+  margin: 0;
+  border: none;
+  flex-shrink: 0;
+  background-color: #ececec;
+}
+
+hr {
+  box-sizing: content-box;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+}
+
+.Information_Information__directButton__8Kgp3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  color: #36f;
+  height: 40px;
+  padding: 6px 8px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  min-width: 64px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.Button_Button__label__1Kk0v {
+  width: 100%;
+  font-size: inherit;
+  font-weight: inherit;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  color: inherit;
+}
+
+.Button_Button__endIcon__MpDfc {
+  margin-top: -2px;
+  margin-right: -1px;
+  margin-left: 2px;
+}
+
+.SvgIcon_SvgIcon__root__8vwon {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+
+.vgIcon_SvgIcon__root__svg__DKYBi {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  flex-shrink: 0;
+  font-size: inherit;
+}
+.SvgIcon_SvgIcon__root__svg__DKYBi {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  flex-shrink: 0;
+  font-size: inherit;
+}
+
+.next {
+  right: calc((100% - 1200px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 195px;
+  width: 30px;
+  height: 60px;
+  opacity: 0.5;
+  border-radius: 15px;
+  background-color: #fff;
+  font-size: 16px;
+}
+.SvgIcon {
+  width: 100%;
+  display: flax;
+  align-items: inherit;
+  justify-content: inherit;
+  height: 16px;
+}
+.next svg {
+  height: 16px;
+}
+.prev svg {
+  height: 16px;
+}
+.prev {
+  left: calc((100% - 1210px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 195px;
+  width: 30px;
+  height: 60px;
+  opacity: 0.5;
+  border-radius: 15px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+ {
+  /*캐러셀E*/
+}
+
+@media (min-width: 1200px) {
+  .main {
+    padding-top: 25px;
+  }
+  .slide_content {
+    padding: 0 12px;
+  }
+  .Image_Image {
+    margin: 0;
+  }
+  .MainBar_MainBar {
+    margin: 0 auto;
+    height: 50px;
+    width: 87.72%;
+  }
+  .Menu_className .xsHomeButton {
+    display: none;
+  }
+  .Aside_className ul li .signUpButton {
+    padding: 0 10px;
+  }
+  .Aside_visibleMenu {
+    display: none !important;
+  }
+
+  .information {
+    position: absolute;
+    bottom: 28px;
+    width: 330px;
+    height: 146px;
+    border-radius: 4px;
+    background-color: #fff;
+    opacity: 1;
+    text-align: left;
+    left: 34px;
+  }
+  .information > h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .information > h3 {
+    margin: 0 20px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 1.64;
+    color: #333;
+  }
+  .Information_Information__directButton__8Kgp3 {
+    margin: 6px 0 0 13px;
+  }
+  .divider {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .MainBar_MainBar {
+    margin: 0 auto;
+    height: 50px;
+    width: 90%;
+  }
+  .Menu_className {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-evenly;
+  }
+  .Menu_className li a {
+    font-size: 13px;
+    padding: 15px 0;
+  }
+  .Menu_className .xsHomeButton {
+    display: none;
+  }
+  .Aside_className > ul li .signUpButton {
+    margin-right: 0;
+    padding: 0 3px;
+  }
+  .Aside_className > ul li .dashboardButton {
+    margin: 0;
+  }
+  .Aside_visibleMenu {
+    display: none !important;
+  }
+  .Image_Image {
+    height: 183px;
+    border-radius: 3px 3px 0 0;
+  }
+  .Image_Image > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .Image_Image > img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .MainBar_MainBar {
+    height: 110px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .Menu_className {
+    justify-content: flex-start;
+    margin-right: 30px;
+  }
+  .Menu_className li a {
+    font-size: 13px;
+    padding: 11px 10px 19px;
+  }
+  .MainBar_MainBar_nav_top {
+    padding: 15px 0;
+    height: 60px;
+    width: 100%;
+  }
+  .Menu_className {
+    justify-content: flex-start;
+    margin-right: 30px;
+  }
+  .xsSignUpButton {
+    display: inline-block;
+  }
+  .Menu_className .xsHomeButton {
+    display: none;
+  }
+  .Aside_className > ul li .searchButton {
+    margin: 0;
+  }
+  .Aside_className ul li .signUpButton {
+    display: none;
+  }
+  .leftDivision {
+    display: none;
+  }
+  .Aside_className ul .leftDivision {
+    display: none;
+  }
+  .Padding {
+    height: 110px;
+  }
+  .Image_Image {
+    height: 183px;
+    border-radius: 3px 3px 0 0;
+  }
+  .Image_Image > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .Image_Image > img {
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .MainBar_MainBar {
+    height: 110px;
+  }
+  .Menu_className {
+    text-align: left;
+  }
+  .MainBar_MainBar_nav_top {
+    height: 60px;
+    width: 100%;
+    padding: 15px 20px;
+  }
+  .xsSignUpButton {
+    display: inline-block;
+  }
+  .Menu_className {
+    text-align: left;
+  }
+  .Menu_className li a {
+    padding: 11px 10px 19px;
+  }
+  .Menu_className .smMoreVisible {
+    display: none;
+  }
+  .Aside_className {
+    padding: 14px 0;
+  }
+  .Aside_className ul {
+    margin-top: -5px;
+  }
+  .Aside_className ul li .searchButton {
+    margin: 0;
+  }
+  .Aside_className ul li .signUpButton {
+    display: none;
+  }
+  .leftDivision {
+    display: none;
+  }
+  .Aside_className ul .leftDivision {
+    display: none;
+  }
+  .Padding {
+    height: 110px;
+  }
+  .Image_Image {
+    height: 183px;
+    border-radius: 3px 3px 0 0;
+  }
+  .Image_Image > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .Image_Image > img {
+    height: 100%;
+  }
+}
